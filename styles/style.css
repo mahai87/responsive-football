@@ -2,7 +2,41 @@
     margin:0;
     padding:0;
 }
+/* font imported  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+/* header styles  start */
 header {
     height: 677px;
     background-color: #2D25A0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 135px 140px 86px 156px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+   
+}
+header a{
+    text-decoration: none;
+    width: 88px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color:#E02C6D;
+    padding: 10px 24px;
+
+}
+header div img{
+    width: 388px;
+    height: 428px;
 }
