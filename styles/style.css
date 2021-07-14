@@ -102,3 +102,19 @@ h4{
 .socia-media-icon img{
     margin-right: 14px;
 }
+/* media query start  */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     header {
+         width: 500px;
+         display: flex;
+         flex-direction: column;
+     }
+     .players{
+         display: grid;
+         grid-template-columns: 350px;
+     }
+     footer{
+         width: 500px;
+     }
+}
