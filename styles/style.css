@@ -87,6 +87,7 @@ h3 {
 }
 /* footer styles  */
 footer{
+    margin-top: 153px;
     display: flex;
     flex-direction: column;
     align-items: center;
