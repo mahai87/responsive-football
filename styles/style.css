@@ -34,9 +34,51 @@ header a{
     color: #FFFFFF;
     background-color:#E02C6D;
     padding: 10px 24px;
-
+}
+.fa-arrow-right{
+    margin-left: 8px;
 }
 header div img{
     width: 388px;
     height: 428px;
+}
+header div img:hover{
+    transform: scale(1.5);
+}
+main{
+    width: 1050px;
+    margin: 40px 180px 135px 160px;
+}
+section{
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-culumn-gap:30px;
+}
+.player {
+    border: 15px solid #FFFFFF;
+    box-shadow: 10px 10px 20px gray;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+h3 {
+    color: black;
+    font-weight: 700;
+    font-size:28px;
+    margin-top: 16px;
+}
+.player p{
+    margin-top: 10px;
+    font-size: 16px;
+    color:#6C6C6C;
+    text-align: justify;
+
+    
 }
