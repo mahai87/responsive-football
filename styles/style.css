@@ -58,15 +58,19 @@ section{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-culumn-gap:30px;
+    grid-culumn-gap:40px;
 }
 .player {
     border: 15px solid #FFFFFF;
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 20px lightgray;
 }
 .player img{
     width: 300px;
     height: 256px;
+}
+.player a{
+    text-decoration: none;
+    color: black;
 }
 h3 {
     color: black;
